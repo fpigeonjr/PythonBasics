@@ -32,6 +32,19 @@ print(first_name, "is learning Python!")
 
 ```
 
-Naming things is hard. Here are [Pythons's naming conventions][pythonNamingConventio].
+Naming things is hard. Here are [Pythons's naming conventions][pythonNamingConvention].
 
-[pythonNamingConventio]: https://www.python.org/dev/peps/pep-0008/#prescriptive-naming-conventions
+Functions are created with the `def` keyword and the `{}` are replaced with a `:`
+
+Indention is important in Python
+
+```python
+
+def yell(text): 
+  text = text.upper()
+  number_of_characters = len(text)
+  result = text + "!" * (number_of_characters // 2) 
+  print(result)
+```
+
+[pythonNamingConvention]: https://www.python.org/dev/peps/pep-0008/#prescriptive-naming-conventions
