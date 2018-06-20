@@ -47,4 +47,7 @@ def yell(text):
   print(result)
 ```
 
+Python uses `try except`  instead of `try catch`.
+To raise an excemption use `raise`
+
 [pythonNamingConvention]: https://www.python.org/dev/peps/pep-0008/#prescriptive-naming-conventions
